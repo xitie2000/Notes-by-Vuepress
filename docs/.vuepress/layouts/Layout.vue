@@ -12,18 +12,14 @@ import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
     bottom: 0;
     transform-origin: 100% 100%;
 "></div>
-      <component :is="'script'">
-        function initSakanaWidget() {
-          new SakanaWidget().setState({ d: 0.95 }).mount(&#39;#sakana-box&#39;);
-        }
-      </component>
+        <component :is="'script'" type="text/javascript" src="https://shuocloud-db.oss-cn-hangzhou.aliyuncs.com/music/sakana.js"></component>
+
+        <component :is="'script'" type="text/javascript" src="https://cdn.jsdelivr.net/gh/xitie2000/BlogSource@1.2.5/js/music.js"></component>
         <component :is="'script'"
         async
         onload="initSakanaWidget()"
         src="https://cdn.jsdelivr.net/npm/sakana-widget@2.3.2/lib/sakana.min.js"
         ></component>
-
-        <component :is="'script'" type="text/javascript" src="https://cdn.jsdelivr.net/gh/xitie2000/BlogSource@1.2.5/js/music.js"></component>
   <ParentLayout>
 
   </ParentLayout>

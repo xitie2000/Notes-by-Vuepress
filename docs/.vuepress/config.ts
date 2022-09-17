@@ -9,7 +9,6 @@ import navbar from "./navbar";
 import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from 'vuepress'
 import { searchPlugin } from '@vuepress/plugin-search'
-import { meting } from 'vuepress-plugin-meting'
 
 export default defineUserConfig({
     lang: 'zh-CN',
