@@ -14,7 +14,7 @@ import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
 "></div>
       <component :is="'script'">
         function initSakanaWidget() {
-          new SakanaWidget().setState({ d: 0.95 }).mount("#sakana-box");
+          new SakanaWidget().setState({ d: 0.95 }).mount(\'#sakana-box\');
         }
       </component>
         <component :is="'script'"
