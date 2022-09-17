@@ -14,7 +14,7 @@ import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
 "></div>
       <component :is="'script'">
         function initSakanaWidget() {
-          new SakanaWidget().setState({ d: 0.95 }).mount('#sakana-box');
+          new SakanaWidget().setState({ d: 0.95 }).mount("#sakana-box");
         }
       </component>
         <component :is="'script'"
@@ -23,7 +23,7 @@ import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
         src="https://cdn.jsdelivr.net/npm/sakana-widget@2.3.2/lib/sakana.min.js"
         ></component>
 
-                <component :is="'script'" type="text/javascript" src="https://cdn.jsdelivr.net/gh/xitie2000/BlogSource@1.2.5/js/music.js"></component>
+        <component :is="'script'" type="text/javascript" src="https://cdn.jsdelivr.net/gh/xitie2000/BlogSource@1.2.5/js/music.js"></component>
   <ParentLayout>
 
   </ParentLayout>
