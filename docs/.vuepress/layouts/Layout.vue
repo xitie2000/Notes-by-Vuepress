@@ -14,7 +14,7 @@ import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
 "></div>
         <component :is="'script'" type="text/javascript" src="https://shuocloud-db.oss-cn-hangzhou.aliyuncs.com/music/sakana.js"></component>
 
-        <component :is="'script'" type="text/javascript" src="https://cdn.jsdelivr.net/gh/xitie2000/BlogSource@1.2.5/js/music.js"></component>
+        <component :is="'script'" type="text/javascript" src="https://cdn.jsdelivr.net/gh/xitie2000/BlogSource@1.2.6/js/music.js"></component>
         <component :is="'script'"
         async
         onload="initSakanaWidget()"
