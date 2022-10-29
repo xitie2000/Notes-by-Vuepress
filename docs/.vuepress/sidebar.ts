@@ -14,6 +14,6 @@ export default [
     {
         text: '高级分布式系统',
         collapsible: true,
-        children: ['/高级分布式系统/1-绪论'],
+        children: ['/高级分布式系统/1-绪论', '/高级分布式系统/2-进程线程及客户服务器'],
     },
 ] as SidebarConfig;
