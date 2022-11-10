@@ -19,7 +19,7 @@ export default [
     {
         text: '数理逻辑',
         collapsible: true,
-        children: ['/数理逻辑/1-学科介绍'],
+        children: ['/数理逻辑/1-学科介绍', '/数理逻辑/2-形式系统介绍'],
     },
     {
         text: '占位页',
