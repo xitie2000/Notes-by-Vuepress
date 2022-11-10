@@ -17,6 +17,11 @@ export default [
         children: ['/高级分布式系统/1-绪论', '/高级分布式系统/2-进程线程及客户服务器', '/高级分布式系统/3-通信'],
     },
     {
+        text: '数理逻辑',
+        collapsible: true,
+        children: ['/数理逻辑/1-学科介绍'],
+    },
+    {
         text: '占位页',
         collapsible: true,
         children: ['/占位页/占位1','/占位页/占位2'],
