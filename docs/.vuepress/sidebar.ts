@@ -25,6 +25,6 @@ export default [
     {
         text: '占位页',
         collapsible: true,
-        children: ['/占位页/占位1','/占位页/占位2'],
+        children: ['/占位页/占位3', '/占位页/占位1','/占位页/占位2'],
     }
 ] as SidebarConfig;
