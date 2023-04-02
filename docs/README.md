@@ -6,6 +6,6 @@
 -->
 # 关于本站
 
-**你可以不看本页，但你一定要去看看占位页 :smiling_face_with_three_hearts:**
+<!-- **你可以不看本页，但你一定要去看看占位页 :smiling_face_with_three_hearts:** -->
 
 本站用于记录一些笔记，随缘更新（
